@@ -1,0 +1,10 @@
+{
+  "name": "concurrent-merge-race",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible demo of the No-Clobber Main Protocol using real local git repos as fixtures.",
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "license": "UNLICENSED"
+}
