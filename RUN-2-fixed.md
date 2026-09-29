@@ -17,7 +17,10 @@ node --test test/fixed.test.js
 
 (run against a version of `fixed/merge-safe.js` with the `MERGE_HEAD`
 check, the two-parent/ancestor check, and the diff-stat check commented
-out - see the git history of this repo for the exact diff)
+out, then restored from a backup for the GREEN run below - the repo ships
+as a single commit, so this disable/restore cycle happened locally and
+is not itself preserved in git history; the failing and passing output
+below is the record of it)
 
 ```
 TAP version 13
